@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+        <title>Operaciones de Conjuntos</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:ital,wght@1,200&family=Roboto&family=Tapestry&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/estilopag.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="barra">
+                    <h1>Operaciones de Conjuntos</h1>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <form class="form">
+                <h2>Producto Cruz</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius corrupti ab tempora vitae quos fugiat cupiditate illo minima, doloribus neque eveniet aliquam perspiciatis itaque at temporibus dolores magni culpa deleniti.</p>
+                <div class="contenedor-es">
+                    <label for="conjuntoC">A:</label>
+                    <input type="text" id="ConjuntoA" placeholder="Ej: 1, 2, 5, ..." class="input-b">
+                    <label for="conjuntoD">B:</label>
+                    <input type="text" id="ConjuntoB" placeholder="Ej: 1, 2, 3, ..." class="input-b">
+                </div>
+                <div class="contenedor-boton">
+                    <input type="button" onclick="calcularProductoCruz()" value="Calcular Producto Cruz" class="boton">
+                    <!--
+                    <input type="submit" value="B de A?" class="boton">
+                    <button class="boton"><span>A de B?</span></button>
+                    <button class="boton"><span>B de A?</span></button>-->
+                </div>
+                <div id="resultado" class="resultado-container"></div>
+            </form>
+        </main>
+        <script src="Js/script.js"></script>
+
+        <footer class="pie-pagina">
+            <div class="grupo-2">
+                <small>&copy; 2024 <b>Diego Yosef Tequipa Tepox</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+    </body>
+</html>
